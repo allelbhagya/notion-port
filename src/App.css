@@ -1,0 +1,47 @@
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #e1e1e1;
+  color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.sidebar.closed {
+  width: 0;
+  transition: 0.3s;
+}
+
+.sidebar .icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 16px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+}
+
+.icon {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 20px;
+  z-index: 1000;
+}
+
+.main-content {
+  transition: padding-left 0.3s;
+}
